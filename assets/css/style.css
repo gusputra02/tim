@@ -1,0 +1,42 @@
+:root {
+    --body: #F6F5F3;
+    --primary: #254779;
+    --font: #292929;
+}
+
+body {
+    background-color: var(--body);
+    font-family: "Poppins", sans-serif;
+    color: var(--font);
+    font-size: 16px;
+    overflow-x: hidden;
+}
+
+.color-acsent1 {
+    color: var(--primary);
+}
+
+.color-acsent2 {
+    color: var(--font);
+}
+
+/* Navbar */
+.active {
+    color: var(--primary) !important; 
+}
+
+.navbar-nav a {
+    margin-right: 70px !important;
+}
+
+.btn1 {
+    background-color: var(--primary);
+    text-align: center;
+    padding: 6px 24px;
+    color: var(--body);
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 20px;
+    font-weight: 700;
+}
+/* End Navbar */
